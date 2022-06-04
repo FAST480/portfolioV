@@ -6,6 +6,7 @@
 	<title>Портфолио</title>
 	<link rel="stylesheet" href="assets/css/main.css">
 	<script src="assets/js/test.js" defer></script>
+	<script src="assets/js/scroll.js" defer></script>
 </head> 
 <body>
 	<img class="thing" src="assets/img/whiteSmallStar.svg" style="z-index: 99; position: absolute; transition: left .65s ease-out, top .65s ease-out;">
@@ -17,9 +18,9 @@
 				<div class="nav__body--upper">
 					<div class="nav__logo"><img src="assets/img/logo.svg" alt="logo"></div>
 					<ul class="nav__menu">
-						<li><a href="#">about me</a></li>
-						<li><a href="#">hobby</a></li>
-						<li><a href="#">portfolio</a></li>
+						<li><a href="index.html">about me</a></li>
+						<li><a href="hobby.html">hobby</a></li>
+						<li><a href="portfolio.html">portfolio</a></li>
 						<li><a href="#">skills</a></li>
 					</ul>
 				</div>
@@ -32,7 +33,56 @@
 			<div class="container">
 				<div class="main__body">
 					
-					
+					<section class="skills__offer">
+						<div class="skills__offer--subtext">нет предела совершенству<img src="assets/img/yellowBigStar.svg" alt="star"></div>
+						<div class="skills__offer--title"><img src="assets/img/whiteBorderlStar.svg" alt="star">My Skills</div>
+						<div class="skills__offer--button"><a class="arrow-down-link" href="#skills"><img src="assets/img/arrowDown.svg" alt="arrow"></a></div>
+					</section>
+
+					<section class="skills__content" id="skills">
+						<div class="skills__list">
+							<div class="skills__item">
+								<div class="skills__name">Figma</div>
+								<div class="skills__progressBar"><div class="skills__progressBar--bar"><img style="left: 90%" src="assets/img/yellowBigStar.svg" alt="star"></div></div>
+							</div>
+							<div class="skills__item">
+								<div class="skills__name">Easy Paint Tool SAI</div>
+								<div class="skills__progressBar"><div class="skills__progressBar--bar"><img style="left: 87%" src="assets/img/yellowBigStar.svg" alt="star"></div></div>
+							</div>
+							<div class="skills__item">
+								<div class="skills__name">Adobe Photoshop Lightroom</div>
+								<div class="skills__progressBar"><div class="skills__progressBar--bar"><img style="left: 87%" src="assets/img/yellowBigStar.svg" alt="star"></div></div>
+							</div>
+							<div class="skills__item">
+								<div class="skills__name">Tilda</div>
+								<div class="skills__progressBar"><div class="skills__progressBar--bar"><img style="left: 80%" src="assets/img/yellowBigStar.svg" alt="star"></div></div>
+							</div>
+							<div class="skills__item">
+								<div class="skills__name">HTML</div>
+								<div class="skills__progressBar"><div class="skills__progressBar--bar"><img style="left: 70%" src="assets/img/whiteSmallStar.svg" alt="star"></div></div>
+							</div>
+							<div class="skills__item">
+								<div class="skills__name">CSS</div>
+								<div class="skills__progressBar"><div class="skills__progressBar--bar"><img style="left: 65%" src="assets/img/whiteSmallStar.svg" alt="star"></div></div>
+							</div>
+							<div class="skills__item">
+								<div class="skills__name">Adobe Illustrator</div>
+								<div class="skills__progressBar"><div class="skills__progressBar--bar"><img style="left: 50%" src="assets/img/whiteSmallStar.svg" alt="star"></div></div>
+							</div>
+							<div class="skills__item">
+								<div class="skills__name">Adobe Photosshop</div>
+								<div class="skills__progressBar"><div class="skills__progressBar--bar"><img style="left: 37%" src="assets/img/redSmallStar.svg" alt="star"></div></div>
+							</div>
+							<div class="skills__item">
+								<div class="skills__name">Blender</div>
+								<div class="skills__progressBar"><div class="skills__progressBar--bar"><img style="left: 32%" src="assets/img/redSmallStar.svg" alt="star"></div></div>
+							</div>
+							<div class="skills__item">
+								<div class="skills__name">Adobe After Effects</div>
+								<div class="skills__progressBar"><div class="skills__progressBar--bar"><img style="left: 20%" src="assets/img/redSmallStar.svg" alt="star"></div></div>
+							</div>
+						</div>
+					</section>
 
 				</div>
 			</div>
@@ -49,8 +99,10 @@
 				</div>
 				<div class="footer__column">
 					<ul class="footer__list">
-						<li><a href="#">about me</a><br><a href="#">hobby</a></li>
-						<li><a href="#">portfolio</a><br><a href="#">skills</a></li>
+						<li><a href="#">about me</a></li>
+						<li><a href="#">hobby</a></li>
+						<li><a href="#">portfolio</a></li>
+						<li><a href="#">skills</a></li>
 						<li><a href="#">hope</a></li>
 					</ul>
 				</div>
@@ -80,6 +132,6 @@
 	</div>
 
 	
-
+	<script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
 </body>
 </html>
